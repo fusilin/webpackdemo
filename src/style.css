@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Iconfont';
+    src: url('./kust.woff.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
 .hello {
     color: red;
+    font-family: 'Iconfont';
+    /*background: url('./webpack.png');*/
 }

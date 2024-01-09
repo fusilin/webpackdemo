@@ -9,6 +9,7 @@
     "build": "webpack",
     "lint": "eslint --fix \"src/**/*.{js,ts,tsx}\"",
     "clean": "rm -rf node_modules & rm -rf package-lock.json & npm install",
+    "ctrip": "npm config set registry http://registry.npm.release.ctripcorp.com & npm config set disturl http://mirrors.sh.ctriptravel.com/nodejs.org/dist/",
     "taobao": "npm config set registry https://registry.npm.taobao.org",
     "start": "webpack serve --open"
   },
